@@ -6,64 +6,77 @@
   let myTimelineEvents = [
     {
       id: 1,
-      date: "2023 - Present",
-      title: "Chief Innovator",
-      company: "Future Solutions",
+      date: "2022 - Present",
+      title: "Technical Lead - Software Engineer",
+      company: "Fligno",
       description:
         "Pioneering new technologies and dreaming big, leading multiple high-impact projects to success.",
-      icon: "rocket",
-    },
-    {
-      id: 2,
-      date: "2020 - 2023", // Overall tenure at this company
-      title: "Senior Engineering Lead", // Final or most significant title at this company
-      company: "Tech Builders Co.",
-      description:
-        "Grew within the company, contributing to core product development and eventually leading a team of 5 engineers.", // Overall summary
-      icon: "code",
-      subEventsTitle: "Career Growth at Tech Builders", // Optional: Custom title for the sub-section
+      icon: "briefcase",
       subEvents: [
-        // Promotions or key milestones listed (e.g., newest first)
+        {
+          id: "1a",
+          date: "May 2025 - Present",
+          title: "Technical Lead",
+          description:
+            "Troubleshoot and resolve complex technical issues across the development stack.",
+        },
         {
           id: "2a",
-          date: "May 2022 - April 2023",
-          title: "Senior Engineering Lead",
+          date: "April 2022 - May 2025",
+          title: "Software Engineer",
           description:
-            "Led the 'Phoenix Project' team, responsible for architecture and delivery.",
-        },
-        {
-          id: "2b",
-          date: "Jan 2021 - May 2022",
-          title: "Promoted to Software Engineer II",
-          description:
-            "Took on more complex tasks and began mentoring junior developers.",
-        },
-        {
-          id: "2c",
-          date: "March 2020 - Jan 2021",
-          title: "Joined as Software Engineer I",
-          description:
-            "Contributed to backend services and feature development.",
+            "Collaborated with cross-functional teams to design and implement scalable software solutions.",
         },
       ],
     },
     {
+      id: 2,
+      date: "Oct 2024 - May 2025",
+      title: "Software Engineer", // Final or most significant title at this company
+      company: "ChangeGPS",
+      description: "An Accounting Service Platform created under fligno.", // Overall summary
+      icon: "code",
+    },
+    {
       id: 3,
-      date: "2018 - 2020",
-      title: "Junior Coder",
-      company: "Startup X",
-      description:
-        "Learned the ropes and fixed many bugs. Gained foundational experience in full-stack development.",
+      date: "Sept 2022 - Feb 2023",
+      title: "Software Engineer",
+      company: "Paiid",
+      description: "Tap to Pay App created also under fligno.",
       icon: "briefcase",
     },
     {
       id: 4,
-      date: "Education",
-      title: "B.Sc. Computer Science",
-      company: "University of Svelte",
+      date: "Apr 2022 - Sep 2022",
+      title: "Software Engineer",
+      company: "FIN-PAY",
       description:
-        "Graduated with honors, specializing in software development principles.",
-      icon: "gradcap",
+        "A Fintech company that provides a payment platform for businesses.",
+      icon: "code",
+    },
+    {
+      id: 5,
+      date: "Apr 2021 - Apr 2022",
+      title: "Software Engineer",
+      company: "Fourello",
+      description: "A platform that connects freelancers with clients.",
+      icon: "rocket",
+      subEvents: [
+        {
+          id: "5a",
+          date: "Apr 2021 - Apr 2022",
+          title: "Event and Data Engineer",
+          description:
+            "Responsible for data processing and event management tools development.",
+        },
+        {
+          id: "5b",
+          date: "Apr 2021 - Apr 2022",
+          title: "J.R Sotware Engineer",
+          description:
+            "Assisted in the development of web applications and services.",
+        },
+      ],
     },
   ];
 </script>
